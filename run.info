@@ -1,0 +1,2 @@
+docker build -t axweb.tk:1.0 .
+docker run --restart always -d -p 80:80 axweb.tk:1.0
